@@ -1,0 +1,50 @@
+@media only screen and (max-width: 426px) {
+    .wrap {
+      width: 90%;
+    }
+    nav {
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr;
+    }
+    nav .logo {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 20px 0px;
+    }
+    nav .menu {
+      width: 100%;
+    }
+    nav .menu a {
+      font-size: 18px;
+    }
+    #cart {
+      position: fixed;
+      right: 13px;
+      bottom: 22px;
+    }
+    .ban-con {
+      min-height: 588px;
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .wri-con {
+      width: 286px;
+      min-height: 600px;
+    }
+    h1 {
+      margin: 8px 0px;
+    }
+    .nxt-pre {
+      margin-top: 15px;
+    }
+    #hero-img {
+      display: none;
+    }
+  }
+  /*# sourceMappingURL=mob.css.map */
